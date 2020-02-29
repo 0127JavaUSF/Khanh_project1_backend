@@ -1,0 +1,58 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>UserLogIn</servlet-name>
+  	<display-name>UserLogIn</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.servlets.UserLogIn</servlet-class>
+  	 <load-on-startup>0</load-on-startup> 
+  </servlet>
+  <servlet>
+  	<servlet-name>ReimbursementDecision</servlet-name>
+  	<display-name>ReimbursementDecision</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.servlets.ReimbursementDecision</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>NewReimbursement</servlet-name>
+  	<display-name>NewReimbursement</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.servlets.NewReimbursement</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ManagerList</servlet-name>
+  	<display-name>ManagerList</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.servlets.ManagerList</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EmployeeList</servlet-name>
+  	<display-name>EmployeeList</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.servlets.EmployeeList</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UserLogIn</servlet-name>
+  	<url-pattern>/UserLogIn</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ReimbursementDecision</servlet-name>
+  	<url-pattern>/ReimbursementDecision</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>NewReimbursement</servlet-name>
+  	<url-pattern>/NewReimbursement</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ManagerList</servlet-name>
+  	<url-pattern>/ManagerList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmployeeList</servlet-name>
+  	<url-pattern>/EmployeeList</url-pattern>
+  </servlet-mapping>
+</web-app>
